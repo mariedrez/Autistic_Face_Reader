@@ -1,0 +1,18 @@
+# Autistic Face Reader
+
+### Background
+During my stint as an early childhood educator, from time to time there were parents who approached the school about their concerns that their child may be presenting autistic qualities. Also known as Autism Spectrum Disorder, ASD is a lifelong neuro-developmental condition that is "characterised by persistent impairment in reciprocal social communication and social interaction, restricted, repetitive patterns of behaviour, interests, or activities"<a href="https://www.nuh.com.sg/Health-Information/Diseases-Conditions/Pages/Autism-(Children).aspx" target="_blank"><sup>1</sup></a>.
+ Symptoms of ASD can surface during early childhood and impair activities of daily life<a href="https://thespectrum.org.au/autism-strategy/autism-strategy-activities-daily-living/" target="_blank"><sup>2</sup></a>. In Singapore, it was reported that an estimated 1 in 150 children are on the autism spectrum <a href="https://www.msf.gov.sg/policies/Disabilities-and-Special-Needs/Documents/Enabling%20Masterplan%203%20%28revised%2013%20Jan%202017%29.pdf" target="_blank"><sup>3</sup></a>, which outstrips the worldwide incidence of 1 in 100 children as reported by the World Health Organisation<a href="https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders" target="_blank"><sup>4</sup></a>.
+
+While teachers can provide their input based on daily observational records, parents are usually advised to seek professional evaluation from either a child psychiatrist, a psychologist or a developmental paediatrician. In some cases, the teacher's anecdotal records on a child's behaviours in school can provide substantial evidence. However, in many preschools, there can be up to thirty students in a class rotating through various programmes, which may make it a tad challenging for a teacher to spot behavioural quirks in a child who is suspected to be on the spectrum. Additionally, autism masking is common among children with autism<a href="https://www.theautismservice.co.uk/news/what-is-autism-masking-or-camouflaging/" target="_blank"><sup>5</sup></a> whereby the child inevitably picks up and performs certain social behaviours, and actively conceal other types of behaviours in order to assimilate in social situations.
+
+### Problem Statement
+There are many obstacles that can hinder a preschool educator's ability to spot a child with signs and symptoms of autism. This includes the limitations that arise from a busy school setting and the ability of the child to mask the signs and symptoms for autism. An Autistic Face Reader can be built using Convolutional Neural Networks that takes in image data of a child and classifies the face as being "Autistic" or "Non-autistic". Inputting such a model into the daily attendance taking system can alert the teacher in-charge when a student's facial image data is consistently classified as "Autistic". This can lead them to take note of their behavioural tendencies and update their anecdotal records on the child daily. 
+
+Ultimately, a positive "autistic" face reading would not replace a professional evaluation, but act as a useful tool to alert preschool management to look into advising parents accordingly, such as ways to receive a formal diagnosis. Having a formal diagnosis will allow the child with autism as well as their family to understand their unique experiences and receive proper support for their neuroatypical condition. Additionally, the Autistic Face Reader helps to create a window of time before the formal diagnosis which the school can leverage to make necessary adjustments to accommodate their learning needs.  
+
+### Methodology
+
+### Results
+
+### Discussion
