@@ -83,16 +83,20 @@ Here we find the validation loss is much better than the training loss. This ref
 
 ### Part 3: Model Score
 `Confusion Matrix` 
+
 <img width="291" alt="Screenshot 2023-02-08 at 1 21 24 PM" src="https://user-images.githubusercontent.com/115085993/217459799-20732e02-bd4e-4fc3-b38e-1fe40ba50fbd.png">
 
 `Classification report`
+
 <img width="358" alt="Screenshot 2023-02-08 at 1 22 06 PM" src="https://user-images.githubusercontent.com/115085993/217459821-09a412f6-70de-441f-b309-e2a25f77293b.png">
 
 ## Results
-`Correctly classified images` 
+`Correctly classified images`
+
 <img width="503" alt="Screenshot 2023-02-08 at 1 27 59 PM" src="https://user-images.githubusercontent.com/115085993/217459897-f4a16cfd-ac43-40a4-8012-fbeafe1e0b88.png">
 
 `Wrongly classified images` 
+
 <img width="524" alt="Screenshot 2023-02-08 at 1 28 31 PM" src="https://user-images.githubusercontent.com/115085993/217459937-a5ac0614-f167-4c27-9d0c-c7742a6a8a6b.png">
 
 ## Discussion
