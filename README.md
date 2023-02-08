@@ -29,17 +29,18 @@ Ultimately, a positive "autistic" face reading would not replace a professional 
 The image dataset which was obtained from Kaggle <a href="https://www.kaggle.com/datasets/imrankhan77/autistic-children-facial-data-set" target="_blank"><sup>6</sup></a> has been adapted for use in this project. It comprises facial image data that belong to either of two classes: children with autism and children without autism. The folder titled 'consolidated' contains 1468 images per class, and 2936 images altogether.
 
 - These are randomly sampled images from each class:
-![Screenshot%202023-02-07%20at%2011.47.43%20PM-2.png][(attachment:](https://user-images.githubusercontent.com/Screenshot%202023-02-07%20at%2011.47.43%20PM-2.png)
+<img width="400" alt="Screenshot 2023-02-07 at 11 47 43 PM" src="https://user-images.githubusercontent.com/115085993/217459239-95954306-e930-4248-ae15-30f71d4754f8.png">
 
 - Comparing the average facial image of a child without autism and a child with autism:
-![Screenshot%202023-02-08%20at%2012.43.57%20AM.png](attachment:Screenshot%202023-02-08%20at%2012.43.57%20AM.png)
+<img width="182" alt="Screenshot 2023-02-08 at 12 43 57 AM" src="https://user-images.githubusercontent.com/115085993/217459383-b9a24569-93ab-4b5d-b886-1ae3b79ce77f.png">
 
-![Screenshot%202023-02-08%20at%2012.44.28%20AM.png](attachment:Screenshot%202023-02-08%20at%2012.44.28%20AM.png)
+<img width="312" alt="Screenshot 2023-02-08 at 12 44 28 AM" src="https://user-images.githubusercontent.com/115085993/217459450-2c4f5f64-fa7d-4fe9-9d7b-58e8e4711cef.png">
+
 
 - Comparing the variance in facial image data within each class
-![Screenshot%202023-02-08%20at%2012.44.56%20AM.png](attachment:Screenshot%202023-02-08%20at%2012.44.56%20AM.png)
+<img width="186" alt="Screenshot 2023-02-08 at 12 44 56 AM" src="https://user-images.githubusercontent.com/115085993/217459537-6651f88d-b962-4308-9575-c1cac36e5cd8.png">
 
-![Screenshot%202023-02-08%20at%2012.51.31%20AM-2.png](attachment:Screenshot%202023-02-08%20at%2012.51.31%20AM-2.png)
+<img width="258" alt="Screenshot 2023-02-08 at 12 51 31 AM" src="https://user-images.githubusercontent.com/115085993/217459600-32b22ce3-5ff3-4712-93b6-9194d36c6a7c.png">
 
 ### Part 2: Modelling
 `Data Pre-processing and Augmentation` 
@@ -70,28 +71,29 @@ As a feed-forward neural network, an input image fed through a CNN is processed 
 - <b> ReduceLearningRateonPlateau </b> adjusts the learning rate when a plateau in model performance is detected. This callback monitors a quantity and if no improvement is seen for a 'patience' number of epochs, the learning rate is reduced.
 
 `Model 1: Custom CNN`
-![Screenshot%202023-02-08%20at%2012.43.02%20PM.png](attachment:Screenshot%202023-02-08%20at%2012.43.02%20PM.png)
+
+<img width="961" alt="Screenshot 2023-02-08 at 12 43 02 PM" src="https://user-images.githubusercontent.com/115085993/217459705-26bd40f7-c567-4fab-94d3-140ababccd90.png">
 
 The training loss is decreasing and seems to continues to decrease at the end of the plot. This indicates that the model is underfitting and capable of further learning should the training process not been halted prematurely.
 
 `Model 2: Transfer Learning (VGG 16)`
-![Screenshot%202023-02-08%20at%201.17.53%20PM.png](attachment:Screenshot%202023-02-08%20at%201.17.53%20PM.png)
+<img width="954" alt="Screenshot 2023-02-08 at 1 17 53 PM" src="https://user-images.githubusercontent.com/115085993/217459750-106cb0d7-686c-4b76-ba04-52f16a165149.png">
 
 Here we find the validation loss is much better than the training loss. This reflects the validation dataset is easier for the model to predict than the training dataset. Furthermore, it is possible that the validation data is relatively small, but widely represented by the training dataset, thus the model performs extremely well on these few examples.
 
 ### Part 3: Model Score
 `Confusion Matrix` 
-![Screenshot%202023-02-08%20at%201.21.24%20PM-2.png](attachment:Screenshot%202023-02-08%20at%201.21.24%20PM-2.png)
+<img width="291" alt="Screenshot 2023-02-08 at 1 21 24 PM" src="https://user-images.githubusercontent.com/115085993/217459799-20732e02-bd4e-4fc3-b38e-1fe40ba50fbd.png">
 
 `Classification report`
-![Screenshot%202023-02-08%20at%201.22.06%20PM.png](attachment:Screenshot%202023-02-08%20at%201.22.06%20PM.png)
+<img width="358" alt="Screenshot 2023-02-08 at 1 22 06 PM" src="https://user-images.githubusercontent.com/115085993/217459821-09a412f6-70de-441f-b309-e2a25f77293b.png">
 
 ## Results
 `Correctly classified images` 
-![Screenshot%202023-02-08%20at%201.27.59%20PM.png](attachment:Screenshot%202023-02-08%20at%201.27.59%20PM.png)
+<img width="503" alt="Screenshot 2023-02-08 at 1 27 59 PM" src="https://user-images.githubusercontent.com/115085993/217459897-f4a16cfd-ac43-40a4-8012-fbeafe1e0b88.png">
 
 `Wrongly classified images` 
-![Screenshot%202023-02-08%20at%201.28.31%20PM.png](attachment:Screenshot%202023-02-08%20at%201.28.31%20PM.png)
+<img width="524" alt="Screenshot 2023-02-08 at 1 28 31 PM" src="https://user-images.githubusercontent.com/115085993/217459937-a5ac0614-f167-4c27-9d0c-c7742a6a8a6b.png">
 
 ## Discussion
 `Recommendations and Future Work`
