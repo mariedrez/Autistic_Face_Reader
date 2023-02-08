@@ -29,7 +29,7 @@ Ultimately, a positive "autistic" face reading would not replace a professional 
 The image dataset which was obtained from Kaggle <a href="https://www.kaggle.com/datasets/imrankhan77/autistic-children-facial-data-set" target="_blank"><sup>6</sup></a> has been adapted for use in this project. It comprises facial image data that belong to either of two classes: children with autism and children without autism. The folder titled 'consolidated' contains 1468 images per class, and 2936 images altogether.
 
 - These are randomly sampled images from each class:
-![Screenshot%202023-02-07%20at%2011.47.43%20PM-2.png](attachment:Screenshot%202023-02-07%20at%2011.47.43%20PM-2.png)
+![Screenshot%202023-02-07%20at%2011.47.43%20PM-2.png][(attachment:](https://user-images.githubusercontent.com/Screenshot%202023-02-07%20at%2011.47.43%20PM-2.png)
 
 - Comparing the average facial image of a child without autism and a child with autism:
 ![Screenshot%202023-02-08%20at%2012.43.57%20AM.png](attachment:Screenshot%202023-02-08%20at%2012.43.57%20AM.png)
