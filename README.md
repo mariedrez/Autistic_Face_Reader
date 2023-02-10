@@ -20,7 +20,7 @@ Ultimately, a positive "autistic" face reading would not replace a professional 
 - <b> Recall </b>: calculated as the ratio of the number of "autistic" (Positive) samples correctly classified to the total number of "autistic" samples. As such, recall measures the model's ability to detect Positive samples.
     - Recall scores can be improved when:
         - The model classifies more "autistic" images correctly. (True Positive is maximised)
-        - The model classifies less "non_autistic" images incorrectly. (False Positive is minimised)
+        - The model classifies less "non_autistic" images incorrectly. (False Negative is minimised)
 - For this project, we will consider it a success if the neural network can classify "autistic" image data correctly with precision and recall scores of at least 70%.
 
 ## Workflow
